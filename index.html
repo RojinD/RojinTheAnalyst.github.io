@@ -65,15 +65,45 @@
 						<!--<span class="date">April 25, 2017</span> -->
 						<h2><a
 								href="https://github.com/RojinD/PortfolioProjects/blob/main/Bussiness%20integilence%20project/recipe_site_traffic.ipynb">
-								Python project: ML Prediction and Analysis of a Recipe Website <br />
+								Python project: Binary Classification of Yelp Reviews Using NLP <br />
 							</a></h2>
 					</header>
-					<p>First, data cleaning and preprocessing is performed. Then, for Explanatory Data Analysis, all
-						the
-						measures using statistical parameters are quantified and visualized. Also, eight Machine
-						learning algorithms are compared and using hyper tuning, best parameters are selected.
-						Finally,
-						the model is built, evaluated and presented in the scientific format.
+					<p>Introduction This NLP project aims to classify Yelp users' experiences as either favorable or
+						unfavorable. By focusing on one-star and five-star ratings, we utilize a pipeline approach to
+						streamline the analysis. The dataset is sourced from Kaggle, reflecting user-reported
+						experiences on Yelp.
+
+						Objective The goal is to categorize reviews based on their content, determining whether the
+						feedback is positive or negative. This involves transforming textual data into actionable
+						insights using various machine learning techniques.
+
+						Methods and Tools We employed the following tools and methods:
+
+						CountVectorizer for converting text data into a matrix of token counts.
+
+						TF-IDF Transformer to weigh the importance of words.
+
+						Multinomial Naive Bayes classifier to predict the review ratings.
+
+						Pipeline to integrate these steps for efficient processing.
+
+						Key Features
+
+						Star Ratings: Ranges from 1 to 5, indicating the level of satisfaction.
+
+						Cool, Useful, and Funny Votes: Reflect user engagement with no cap on the number of votes.
+
+						Results The model achieved an overall accuracy of 81%, particularly excelling in identifying
+						positive (five-star) reviews. However, it struggled with negative (one-star) reviews, indicating
+						areas for further improvement. Enhancements could include more advanced feature engineering and
+						hyperparameter tuning.
+
+						Conclusion While the pipeline shows promise in capturing positive feedback effectively, further
+						refinements are necessary to accurately classify negative reviews. This comprehensive analysis
+						provides valuable insights into customer sentiments, highlighting the importance of continuous
+						optimization in data science projects.
+
+
 
 
 
